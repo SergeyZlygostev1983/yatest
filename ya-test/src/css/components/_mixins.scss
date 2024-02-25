@@ -1,0 +1,19 @@
+@mixin for-desktop {
+	@media (max-width: 1366px) { @content; }
+}
+
+@mixin for-pad {
+	@media (max-width: 1024px) { @content; }
+}
+
+@mixin for-mobile {
+ 	@media (max-width: 767px) { @content; }
+}
+
+@mixin for-phone {
+  @media (max-width: 510px) { @content; }
+}
+
+@mixin for-small-phone {
+  @media (max-width: 374px) { @content; }
+}
